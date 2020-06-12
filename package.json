@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "vuepress": "^1.5.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "eject": "vuepress eject src"
   }
 }
