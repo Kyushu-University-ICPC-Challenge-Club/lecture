@@ -2,13 +2,15 @@
   "dependencies": {
     "is-svg": "^4.3.1",
     "node-forge": "^0.10.0",
-    "ssri": "^8.0.1",
-    "vuepress": "^1.8.2"
+    "ssri": "^8.0.1"
   },
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
     "eject": "vuepress eject src"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
   }
 }
