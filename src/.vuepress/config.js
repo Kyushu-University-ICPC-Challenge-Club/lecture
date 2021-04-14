@@ -32,5 +32,16 @@ module.exports = {
         lineNumbers: true
     },
     base: '/lecture/',
-    dest: 'docs'
+    dest: 'docs',
+    plugins: [
+        [
+            'vuepress-plugin-mathjax',
+            {
+                target: 'svg',
+                macros: {
+                    '*': '\\times',
+                },
+            },
+        ],
+    ],
 }
