@@ -34,6 +34,9 @@ module.exports = {
     base: '/lecture/',
     dest: 'docs',
     plugins: [
+        ['@vuepress/back-to-top'],
+        ['@vuepress/medium-zoom'],
+        ['@vuepress/nprogress'],
         [
             'vuepress-plugin-mathjax',
             {
@@ -43,5 +46,6 @@ module.exports = {
                 },
             },
         ],
+        ['reading-progress'],
     ],
 }

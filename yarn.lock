@@ -1130,6 +1130,13 @@
   dependencies:
     "lodash.debounce" "^4.0.8"
 
+"@vuepress/plugin-back-to-top@^1.8.2":
+  "integrity" "sha512-htAf2m8+6cGmYQexWerznGBY10y1E4TBfebYC3Y3wqNjFjvXUmRKcAG/u6Yxvey4OFkQUxbth2ilKi/GlIW8aQ=="
+  "resolved" "https://registry.npmjs.org/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.8.2.tgz"
+  "version" "1.8.2"
+  dependencies:
+    "lodash.debounce" "^4.0.8"
+
 "@vuepress/plugin-last-updated@1.8.2":
   "integrity" "sha512-pYIRZi52huO9b6HY3JQNPKNERCLzMHejjBRt9ekdnJ1xhLs4MmRvt37BoXjI/qzvXkYtr7nmGgnKThNBVRTZuA=="
   "resolved" "https://registry.npmjs.org/@vuepress/plugin-last-updated/-/plugin-last-updated-1.8.2.tgz"
@@ -1137,7 +1144,14 @@
   dependencies:
     "cross-spawn" "^6.0.5"
 
-"@vuepress/plugin-nprogress@1.8.2":
+"@vuepress/plugin-medium-zoom@^1.8.2":
+  "integrity" "sha512-Mljso/8E6IbNmIKmwKeC6FDfnhKY3fsOUSs5kEGzz3RQwd54eshqHAMRVwW4LZkYZHhwQXF8+qk7YqoMZB7jjg=="
+  "resolved" "https://registry.npmjs.org/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.8.2.tgz"
+  "version" "1.8.2"
+  dependencies:
+    "medium-zoom" "^1.0.4"
+
+"@vuepress/plugin-nprogress@^1.8.2", "@vuepress/plugin-nprogress@1.8.2":
   "integrity" "sha512-3TOBee2NM3WLr1tdjDTGfrAMggjN+OlEPyKyv8FqThsVkDYhw48O3HwqlThp9KX7UbL3ExxIFBwWRFLC+kYrdw=="
   "resolved" "https://registry.npmjs.org/@vuepress/plugin-nprogress/-/plugin-nprogress-1.8.2.tgz"
   "version" "1.8.2"
@@ -4979,6 +4993,11 @@
   "resolved" "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
 
+"medium-zoom@^1.0.4":
+  "integrity" "sha512-UdiUWfvz9fZMg1pzf4dcuqA0W079o0mpqbTnOz5ip4VGYX96QjmbM+OgOU/0uOzAytxC0Ny4z+VcYQnhdifimg=="
+  "resolved" "https://registry.npmjs.org/medium-zoom/-/medium-zoom-1.0.6.tgz"
+  "version" "1.0.6"
+
 "memory-fs@^0.4.1":
   "integrity" "sha1-OpoguEYlI+RHz7x+i7gO1me/xVI="
   "resolved" "https://registry.npmjs.org/memory-fs/-/memory-fs-0.4.1.tgz"
@@ -7786,6 +7805,11 @@
     "lru-cache" "^5.1.1"
     "mathjax3" "3.0.0-beta.3"
     "vuepress-mergeable" "^1.0.2"
+
+"vuepress-plugin-reading-progress@^1.0.10":
+  "integrity" "sha512-7OxcjNEDf9gqFTns0YnXrqPnTRlX6wvxWFr7D8tlfyMPpsZwJkh/MkJveRrEaKcU0gk8QGmPHnXLAZ3soTThVg=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-reading-progress/-/vuepress-plugin-reading-progress-1.0.10.tgz"
+  "version" "1.0.10"
 
 "vuepress-plugin-smooth-scroll@^0.0.3":
   "integrity" "sha512-qsQkDftLVFLe8BiviIHaLV0Ea38YLZKKonDGsNQy1IE0wllFpFIEldWD8frWZtDFdx6b/O3KDMgVQ0qp5NjJCg=="
