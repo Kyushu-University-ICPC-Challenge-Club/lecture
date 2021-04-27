@@ -1,6 +1,6 @@
 module.exports = {
     title: 'プログラミング講習会',
-    description: '講習会用のページです',
+    description: '\n',
     themeConfig: {
         nav: [
             {
